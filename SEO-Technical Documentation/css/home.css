@@ -1,0 +1,104 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    font-family: Palatino, 'Palatino Linotype', serif;
+    color: #252627;
+    background-color: #fcfafa;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+section{
+    padding-top: 3.5rem;
+}
+
+#navigation {
+    background-color: #0EA4EB;
+}
+
+  
+#main-nav {
+    background-color: #0EA4EB;
+}
+
+#main-nav .nav-item a {
+    color: #fff;
+}
+  
+.main-nav-link{
+    margin-right: 1rem;
+}
+
+.btn{
+    background-color: #FC4A1B;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.23);
+}
+
+/*CHAPTER NAV*/
+#chapter-col {
+    margin-top: 3rem;
+    border-right: solid 1px #A3A3A3;
+}
+
+
+#chapter-col nav{
+    margin: 1px 0;
+    position: fixed;
+    max-width: 100%;
+    left: 0;
+    z-index: 1;
+    padding: 2rem 0 2rem 2rem;
+}
+
+.chapter-nav a:hover{
+    background-color: #0EA4EB;
+    color: #fff;
+}
+.chapter-nav a{
+    color: #000;
+}
+
+
+/*MAIN SECTION*/
+#Introduction{
+    margin-top: 3rem;
+}
+
+/*SECTION NAV*/
+#section-col{
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+#section-col nav{
+    margin: 1px 0;
+    position: fixed;
+    max-width: 100%;
+    right: 0;
+    z-index: 1;
+    border-left: solid .5px #A3A3A3;
+    padding: 2rem;
+}
+
+.section-nav h3{
+    font-size: 1rem;
+}
+
+.section-nav a{
+    font-size: .8rem;
+    color: #A3A3A3;
+}
+
+.section-nav a:hover{
+    background-color: #FC4A1B;
+    color: #fff;
+}
